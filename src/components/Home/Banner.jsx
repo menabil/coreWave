@@ -7,7 +7,7 @@ const Banner = () => {
     <>
       <div className="bg-[#eefff9]">
         <Container>
-          <Flex className={"justify-between "}>
+          <Flex className={"justify-between"}>
             <div className="">
               <h1 className="text-[60px] font-light w-[526px] leading-[71px] text-[#1B1B1B]">
                 Empower Your Team <b className="font-bold"> With CoreWave's</b>
@@ -17,7 +17,7 @@ const Banner = () => {
                 CoreWave's Advanced Tools and Techniques
               </p>
               <div className="flex gap-x-5">
-                <button className="rounded-[5px] bg-[#06C279] py-3.5 px-6 text-white font-semibold cursor-pointer cursor-pointer hover:bg-transparent hover:text-black border-3 border-[#06C279] duration-300">
+                <button className="rounded-[5px] bg-[#06C279] py-3.5 px-6 text-white font-semibold cursor-pointer hover:bg-transparent hover:text-black border-3 border-[#06C279] duration-300">
                   Explore More
                 </button>
                 <button className="rounded-[5px] hover:bg-[#06C279] py-3.5 px-6 cursor-pointer hover:text-white font-semibold cursor-pointer flex items-center gap-x-3 bg-transparent text-black border-3 border-[#06C279] duration-300">
