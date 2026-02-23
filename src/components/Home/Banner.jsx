@@ -21,8 +21,8 @@ const Banner = () => {
                   Explore More
                 </button>
                 <button className="rounded-[5px] hover:bg-[#06C279] py-3.5 px-6 hover:text-white font-semibold cursor-pointer flex items-center gap-x-3 bg-transparent text-black border-3 border-[#06C279] duration-300">
-                  <div className="bg-[#DAF6EB] p-2 rounded-full text-[#06C279]">
-                    <FaPlay />
+                  <div className="bg-[#DAF6EB] w-8 h-8 rounded-full text-[#06C279] relative">
+                    <FaPlay className="absolute left-[55%] top-1/2 -translate-x-1/2 -translate-y-1/2" />
                   </div>
                   Watch Video
                 </button>
