@@ -1,8 +1,8 @@
 import Home from "./components/Home/Home";
 import { Routes, Route } from "react-router-dom";
 import RootLayouts from "./components/layouts/RootLayouts";
-import About from "./components/pages/About";
 import Error from "./components/pages/Error";
+import About from "./components/Home/About";
 
 function App() {
   return (
