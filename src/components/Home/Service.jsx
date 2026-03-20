@@ -7,7 +7,7 @@ const Service = () => {
       <Container>
         <Flex className={"justify-between"}>
           <div className="flex flex-wrap gap-10">
-            <div className="pt-[48px] pb-[60px] px-[48px] rounded-[10px] bg-white shadow-newMade mt-[130px]">
+            <div className="pt-12 pb-[60px] px-12 rounded-[10px] bg-white shadow-newMade">
               <img src="/src/assets/aOne.png" alt="" />
               <h6 className="text-xl font-semibold py-3.5">Web Development</h6>
               <p className="text-base text-[#7B7B7B] leading-[26px] w-[217px] ">
@@ -15,7 +15,7 @@ const Service = () => {
                 appealing websites
               </p>
             </div>
-            <div className="pt-[48px] pb-[60px] px-[48px] rounded-[10px] bg-[#06C279]/50  shadow-newMade mb-[130px]">
+            <div className="pt-12 pb-[60px] px-12 rounded-[10px] bg-[#06C279]/50 shadow-newMade">
               <img src="/src/assets/aTwo.png" alt="" />
               <h6 className="text-xl font-semibold text-white py-3.5">
                 Web Development
@@ -25,7 +25,7 @@ const Service = () => {
                 appealing websites
               </p>
             </div>
-            <div className="pt-[48px] pb-[60px] px-[48px] rounded-[10px] bg-white shadow-newMade mb-[130px]">
+            <div className="pt-12 pb-[60px] px-12 rounded-[10px] bg-white shadow-newMade">
               <img src="/src/assets/aThr.png" alt="" />
               <h6 className="text-xl font-semibold py-3.5">Web Development</h6>
               <p className="text-base text-[#7B7B7B] leading-[26px] w-[217px] ">
@@ -33,7 +33,7 @@ const Service = () => {
                 appealing websites
               </p>
             </div>
-            <div className="pt-[48px] pb-[60px] px-[48px] rounded-[10px] bg-white  shadow-newMade mb-[260px] -mt-[130px]">
+            <div className="pt-12 pb-[60px] px-12 rounded-[10px] bg-white  shadow-newMade">
               <img src="/src/assets/aFor.png" alt="" />
               <h6 className="text-xl font-semibold py-3.5">Web Development</h6>
               <p className="text-base text-[#7B7B7B] leading-[26px] w-[217px]">
