@@ -6,7 +6,7 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaBehance } from "react-icons/fa";
-import Button from "../common/Button";
+// import Button from "../common/Button";
 
 const Footer = () => {
   return (
@@ -54,7 +54,7 @@ const Footer = () => {
           <div className="">
             <h6 className="text-xl text-[#1B1B1B] mb-6.5 leading-7.5 font-semibold">Contact Us</h6>
             <input type="text" />
-            <Button btnText={"Request & Callback"} />
+            {/* <Button btnText={"Request & Callback"} /> */}
           </div>
         </Flex>
         <div className="border-t-2 border-[#E0E0E0] text-center w-full text-sm font-medium text-[#7B7B7B] leading-5.5 py-4">
