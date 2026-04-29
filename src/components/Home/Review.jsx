@@ -7,74 +7,92 @@ import { FaStar } from "react-icons/fa";
 
 const Review = () => {
   return (
-    <div className="py-25">
+    <div className="lg:py-25 py-15">
       <Container>
-        <h3 className="text-center text-[#1B1B1B] text-[45px] font-semibold leading-[54px] mb-12">
+        <h3 className="mx-auto text-center text-[#1B1B1B] font-semibold  lg:text-[45px] text-3xl lg:w-[445px] w-[280px] lg:leading-[54px] leading-10 lg:mb-12 mb-7">
           What our clients saying
         </h3>
-        <Flex className={"gap-x-6 "}>
-          <div className="shadow-newMade px-[45px] py-[58px] rounded-[15px] text-center border-2 border-[#F1F1F1]">
+        <Flex className={"lg:gap-6 gap-3 flex-col lg:flex-row "}>
+          <div className="shadow-newMade lg:px-[45px] lg:py-[58px] p-5 rounded-[15px] text-center border-2 border-[#F1F1F1]">
             <Images imgSrc={rOne} className={"mx-auto"} />
-            <h5 className="mt-4 mb-1 text-2xl font-semibold leading-[30px] text-[#1B1B1B]">
+            <h5 className="mt-4 mb-1 lg:text-2xl text-xl font-semibold leading-[30px] text-[#1B1B1B]">
               Excellent Team!
             </h5>
-            <Flex className={"gap-x-1 text-[#FAB93C] text-2xl justify-center"}>
+            <Flex
+              className={
+                "gap-x-1 text-[#FAB93C] lg:text-2xl text-xl justify-center"
+              }
+            >
               <FaStar />
               <FaStar />
               <FaStar />
               <FaStar />
               <FaStar />
             </Flex>
-            <p className="w-[310px] text-[#7B7B7B] text-base leading-6 mt-5 mb-4">
+            <p className="lg:w-[310px] w-[260px] text-[#7B7B7B] lg:text-base text-sm leading-6 mt-5 mb-4">
               The customer service team at this company was very responsive and
               helpful when I had questions about their products.
             </p>
-            <h6 className="text-[#1B1B1B] text-lg leading-[30px] font-semibold">
+            <h6 className="text-[#1B1B1B] lg:text-lg text-base leading-[30px] font-semibold">
               Farhan Rio
             </h6>
-            <p className="text-sm text-[#7B7B7B] leading-6">Happy Seller</p>
+            <p className="lg:text-sm text-xs text-[#7B7B7B] leading-6">
+              Happy Seller
+            </p>
           </div>
-          <div className="shadow-newMade px-[45px] py-[58px] rounded-[15px] text-center border-2 border-[#F1F1F1]">
+          <div className="shadow-newMade lg:px-[45px] lg:py-[58px] p-5 rounded-[15px] text-center border-2 border-[#F1F1F1]">
             <Images imgSrc={rOne} className={"mx-auto"} />
-            <h5 className="mt-4 mb-1 text-2xl font-semibold leading-[30px] text-[#1B1B1B]">
+            <h5 className="mt-4 mb-1 lg:text-2xl text-xl font-semibold leading-[30px] text-[#1B1B1B]">
               Excellent Team!
             </h5>
-            <Flex className={"gap-x-1 text-[#FAB93C] text-2xl justify-center"}>
+            <Flex
+              className={
+                "gap-x-1 text-[#FAB93C] lg:text-2xl text-xl justify-center"
+              }
+            >
               <FaStar />
               <FaStar />
               <FaStar />
               <FaStar />
               <FaStar />
             </Flex>
-            <p className="w-[310px] text-[#7B7B7B] text-base leading-6 mt-5 mb-4">
+            <p className="lg:w-[310px] w-[260px] text-[#7B7B7B] lg:text-base text-sm leading-6 mt-5 mb-4">
               The customer service team at this company was very responsive and
               helpful when I had questions about their products.
             </p>
-            <h6 className="text-[#1B1B1B] text-lg leading-[30px] font-semibold">
+            <h6 className="text-[#1B1B1B] lg:text-lg text-base leading-[30px] font-semibold">
               Farhan Rio
             </h6>
-            <p className="text-sm text-[#7B7B7B] leading-6">Happy Seller</p>
+            <p className="lg:text-sm text-xs text-[#7B7B7B] leading-6">
+              Happy Seller
+            </p>
           </div>
-          <div className="shadow-newMade px-[45px] py-[58px] rounded-[15px] text-center border-2 border-[#F1F1F1]">
+          <div className="shadow-newMade lg:px-[45px] lg:py-[58px] p-5 rounded-[15px] text-center border-2 border-[#F1F1F1]">
             <Images imgSrc={rOne} className={"mx-auto"} />
-            <h5 className="mt-4 mb-1 text-2xl font-semibold leading-[30px] text-[#1B1B1B]">
+            <h5 className="mt-4 mb-1 lg:text-2xl text-xl font-semibold leading-[30px] text-[#1B1B1B]">
               Excellent Team!
             </h5>
-            <Flex className={"gap-x-1 text-[#FAB93C] text-2xl justify-center"}>
+            <Flex
+              className={
+                "gap-x-1 text-[#FAB93C] lg:text-2xl text-xl justify-center"
+              }
+            >
               <FaStar />
               <FaStar />
               <FaStar />
               <FaStar />
               <FaStar />
             </Flex>
-            <p className="w-[310px] text-[#7B7B7B] text-base leading-6 mt-5 mb-4">
+            <p className="lg:w-[310px] w-[260px] text-[#7B7B7B] lg:text-base text-sm leading-6 mt-5 mb-4">
               The customer service team at this company was very responsive and
               helpful when I had questions about their products.
             </p>
-            <h6 className="text-[#1B1B1B] text-lg leading-[30px] font-semibold">
+            <h6 className="text-[#1B1B1B] lg:text-lg text-base leading-[30px] font-semibold">
               Farhan Rio
             </h6>
-            <p className="text-sm text-[#7B7B7B] leading-6">Happy Seller</p>
+            <p className="lg:text-sm text-xs text-[#7B7B7B] leading-6">
+              Happy Seller
+            </p>
           </div>
         </Flex>
       </Container>
