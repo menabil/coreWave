@@ -9,7 +9,7 @@ const Review = () => {
   return (
     <div className="lg:py-25 py-15">
       <Container>
-        <h3 className="mx-auto text-center text-[#1B1B1B] font-semibold  lg:text-[45px] text-3xl lg:w-[445px] w-[280px] lg:leading-[54px] leading-10 lg:mb-12 mb-7">
+        <h3 className="mx-auto lg:text-center text-[#1B1B1B] font-semibold  lg:text-[45px] text-3xl lg:w-fit w-[280px] lg:leading-[54px] leading-10 lg:mb-12 mb-7">
           What our clients saying
         </h3>
         <Flex className={"lg:gap-6 gap-3 flex-col lg:flex-row "}>

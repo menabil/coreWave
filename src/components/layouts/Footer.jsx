@@ -16,15 +16,17 @@ const Footer = () => {
             "items-start gap-x-[190px] mb-10.5 flex-col-reverse lg:flex-row"
           }
         >
-          <div className="mx-auto lg:mx-0">
-            <Images imgSrc={fLogo} />
-            <p className="text-sm text-[#7B7B7B] leading-5.5 mt-6.5">
-              mukimsdesign@gmail.com
-            </p>
-            <p className="text-sm text-[#7B7B7B] leading-5.5 mb-5">
-              +88 01767630044
-            </p>
-            <Flex className={"gap-x-2"}>
+          <Flex className="justify-between lg:w-fit w-full lg:justify-normal lg:flex-col lg:items-start">
+            <div className="mb-5">
+              <Images imgSrc={fLogo} />
+              <p className="text-sm text-[#7B7B7B] leading-5.5 mt-6.5">
+                mukimsdesign@gmail.com
+              </p>
+              <p className="text-sm text-[#7B7B7B] leading-5.5">
+                +88 01767630044
+              </p>
+            </div>
+            <Flex className={"gap-2 lg:flex-row flex-col"}>
               <div className="rounded-full bg-[#06C279] h-7 w-7 text-white relative cursor-pointer">
                 <FaFacebookF className="absulate top-1/2 left-1/2  translate-x-1/3 translate-y-[40%]" />
               </div>
@@ -38,7 +40,7 @@ const Footer = () => {
                 <FaBehance className="absulate top-1/2 left-1/2  translate-x-1/3 translate-y-[40%]" />
               </div>
             </Flex>
-          </div>
+          </Flex>
           <div className="hidden md:block">
             <h6 className="text-xl text-[#1B1B1B] mb-6.5 leading-7.5 font-semibold">
               Services
@@ -66,7 +68,7 @@ const Footer = () => {
               <p>Terms & Conditions</p>
             </Flex>
           </div>
-          <div className="lg:pb-0 pb-10 lg:text-left text-center lg:w-[350px] w-[280px]">
+          <div className="lg:pb-0 pb-10 text-left lg:w-[350px] w-[280px]">
             <h6 className="text-xl text-[#1B1B1B] leading-7.5 font-semibold">
               Contact Us
             </h6>
