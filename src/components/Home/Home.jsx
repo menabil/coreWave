@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import Project from "./Project";
 import Review from "./Review";
 import Service from "./Service";
+import Top from "./Top";
 import Trail from "./Trail";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <About />
       <Service />
       <Project />
+      <Top />
       <Review />
       <Trail />
     </>

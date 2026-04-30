@@ -34,7 +34,7 @@ const Header = () => {
               <li className="cursor-pointer hover:text-[#06C279] duration-300 font-medium ">
                 Testimonial
               </li>
-              <button className="rounded-[5px] bg-[#06C279] py-3.5 px-6 text-white ml-[142px] font-semibold cursor-pointer   hover:bg-transparent hover:text-black border-3 border-[#06C279] duration-300">
+              <button className="rounded-[5px] bg-[#06C279] py-3 px-6 text-white ml-[142px] font-semibold cursor-pointer   hover:bg-transparent hover:text-black border-3 border-[#06C279] duration-300">
                 Register
               </button>
             </ul>

@@ -29,7 +29,7 @@ const Review = () => {
               <FaStar />
               <FaStar />
             </Flex>
-            <p className="lg:w-[310px] w-[260px] text-[#7B7B7B] lg:text-base text-sm leading-6 mt-5 mb-4">
+            <p className="lg:w-[310px] w-[230px] text-[#7B7B7B] lg:text-base text-sm leading-6 mt-5 mb-4">
               The customer service team at this company was very responsive and
               helpful when I had questions about their products.
             </p>
@@ -56,7 +56,7 @@ const Review = () => {
               <FaStar />
               <FaStar />
             </Flex>
-            <p className="lg:w-[310px] w-[260px] text-[#7B7B7B] lg:text-base text-sm leading-6 mt-5 mb-4">
+            <p className="lg:w-[310px] w-[230px] text-[#7B7B7B] lg:text-base text-sm leading-6 mt-5 mb-4">
               The customer service team at this company was very responsive and
               helpful when I had questions about their products.
             </p>
@@ -83,7 +83,7 @@ const Review = () => {
               <FaStar />
               <FaStar />
             </Flex>
-            <p className="lg:w-[310px] w-[260px] text-[#7B7B7B] lg:text-base text-sm leading-6 mt-5 mb-4">
+            <p className="lg:w-[310px] w-[230px] text-[#7B7B7B] lg:text-base text-sm leading-6 mt-5 mb-4">
               The customer service team at this company was very responsive and
               helpful when I had questions about their products.
             </p>
