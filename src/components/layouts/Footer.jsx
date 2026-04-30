@@ -6,7 +6,6 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaBehance } from "react-icons/fa";
-// import Button from "../common/Button";
 
 const Footer = () => {
   return (
@@ -79,7 +78,6 @@ const Footer = () => {
             <button className="rounded-[5px] bg-[#06C279] lg:py-3.5 lg:px-6 px-3 py-2 text-white font-semibold cursor-pointer hover:bg-[#DAF6EB] duration-300 lg:text-base text-sm hover:text-[#06C279]">
               Request & Callback
             </button>
-            {/* <Button btnText={"Request & Callback"} /> */}
           </div>
         </Flex>
         <div className="border-t-2 border-[#E0E0E0] text-center w-full lg:text-sm text-xs font-medium text-[#7B7B7B] leading-5.5 py-4">
