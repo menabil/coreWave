@@ -40,7 +40,7 @@ const Header = () => {
             </ul>
           </div>
           {show && (
-            <div className="absolute bg-[#DAF6EB] top-10 text-center w-[250px] py-5 rounded-[10px] z-100">
+            <div className="absolute bg-[#DAF6EB] top-10 text-center w-[250px] py-5 rounded-[10px] z-100 border-2 border-white">
               <ul className="flex flex-col gap-y-5 items-center ">
                 <li className="cursor-pointer duration-300 font-medium ">
                   Home
