@@ -81,7 +81,7 @@ const Footer = () => {
           </div>
         </Flex>
         <div className="border-t-2 border-[#E0E0E0] text-center w-full lg:text-sm text-xs font-medium text-[#7B7B7B] leading-5.5 py-4">
-          @2023 CoreWave. All copyrights reserved
+          @2026 CoreWave. All copyrights reserved
         </div>
       </Container>
     </div>
