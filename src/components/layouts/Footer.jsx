@@ -13,10 +13,10 @@ const Footer = () => {
       <Container>
         <Flex
           className={
-            "items-start gap-x-[195px] mb-10.5 flex-col-reverse lg:flex-row"
+            "items-start gap-x-[190px] mb-10.5 flex-col-reverse lg:flex-row"
           }
         >
-          <div className="mx-auto">
+          <div className="mx-auto lg:mx-0">
             <Images imgSrc={fLogo} />
             <p className="text-sm text-[#7B7B7B] leading-5.5 mt-6.5">
               mukimsdesign@gmail.com
@@ -66,7 +66,7 @@ const Footer = () => {
               <p>Terms & Conditions</p>
             </Flex>
           </div>
-          <div className="lg:pb-0 pb-10 lg:text-left text-center">
+          <div className="lg:pb-0 pb-10 lg:text-left text-center lg:w-[350px] w-[280px]">
             <h6 className="text-xl text-[#1B1B1B] leading-7.5 font-semibold">
               Contact Us
             </h6>
